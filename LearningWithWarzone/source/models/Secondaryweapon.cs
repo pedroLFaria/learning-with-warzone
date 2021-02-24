@@ -1,12 +1,12 @@
-﻿namespace ConsoleApp1.source.models
+﻿namespace LerningWithWarzone.source.models
 {
-    public class Primaryweapon
+    public class Secondaryweapon
     {
         public string name { get; set; }
         public object label { get; set; }
         public object imageLoot { get; set; }
         public object imageIcon { get; set; }
         public string variant { get; set; }
-        public Attachment[] attachments { get; set; }
+        public Attachment1[] attachments { get; set; }
     }
 }

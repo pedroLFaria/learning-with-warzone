@@ -1,6 +1,6 @@
-﻿namespace ConsoleApp1.source.models
+﻿namespace LerningWithWarzone.source.models
 {
-    public class Attachment
+    public class Attachment1
     {
         public string name { get; set; }
         public object label { get; set; }

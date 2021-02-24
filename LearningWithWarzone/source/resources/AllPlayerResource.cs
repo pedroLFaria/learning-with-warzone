@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using ConsoleApp1.source.models;
-using ConsoleApp1.source.utils;
+using LerningWithWarzone.source.models;
+using LerningWithWarzone.source.utils;
 using Newtonsoft.Json.Linq;
 
-namespace ConsoleApp1.source.resources
+namespace LerningWithWarzone.source.resources
 {
     public class AllPlayerResource
     {

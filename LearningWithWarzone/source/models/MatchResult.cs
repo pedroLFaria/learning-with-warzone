@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1.source.models
+﻿namespace LerningWithWarzone.source.models
 {
     public class MatchResult
     {

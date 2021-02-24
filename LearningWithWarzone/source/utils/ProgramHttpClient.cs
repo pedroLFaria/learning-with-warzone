@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 
-namespace ConsoleApp1.source.utils
+namespace LerningWithWarzone.source.utils
 {
     public class ProgramHttpClient
     {

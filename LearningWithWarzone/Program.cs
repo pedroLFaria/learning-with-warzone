@@ -2,11 +2,11 @@
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using ConsoleApp1.source.person;
-using ConsoleApp1.source.resources;
-using ConsoleApp1.source.utils;
+using LerningWithWarzone.source.person;
+using LerningWithWarzone.source.resources;
+using LerningWithWarzone.source.utils;
 
-namespace ConsoleApp1
+namespace LerningWithWarzone
 {
     class Program
     {

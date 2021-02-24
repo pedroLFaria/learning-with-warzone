@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ConsoleApp1.source.person
+namespace LerningWithWarzone.source.person
 {
     public class Person
     {
