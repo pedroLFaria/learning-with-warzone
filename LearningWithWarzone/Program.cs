@@ -15,7 +15,9 @@ namespace LerningWithWarzone
         static async Task Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine(AllPlayerResource.getMatchResults("1326408137834580344")[0].playerStats.kdRatio);
+            var matchResult = AllPlayerResource.getMatchResults("10521100311752649465");
+            var player = matchResult.Find(result => result.player.username.Contains("Jonymiguxo"));
+            Console.WriteLine($"Username: {player.player.username}; kills: {player.playerStats.kills}; Deaths: {player.playerStats.deaths}");
         }
 
         static async Task<Person> getPerson()
