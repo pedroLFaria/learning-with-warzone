@@ -2,8 +2,8 @@
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
+using ConsoleApp1.source.resources;
 using LerningWithWarzone.source.person;
-using LerningWithWarzone.source.resources;
 using LerningWithWarzone.source.utils;
 
 namespace LerningWithWarzone
@@ -14,7 +14,6 @@ namespace LerningWithWarzone
 
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             var matchResult = AllPlayerResource.getMatchResults("10521100311752649465");
             var player = matchResult.Find(result => result.player.username.Contains("Jonymiguxo"));
             Console.WriteLine($"Username: {player.player.username}; kills: {player.playerStats.kills}; Deaths: {player.playerStats.deaths}");
